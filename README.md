@@ -12,6 +12,6 @@ This action check if a site in online or offline.
 
 ## Example usage
 
-uses: actions/is-my-site-up@v1
+uses: actions/is-my-site-up@v1.1
 with:
 site: 'oiluna.com'
