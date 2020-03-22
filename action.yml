@@ -1,0 +1,15 @@
+name: "Ping my site"
+description: "Check if a site is up"
+author: "leocardosoti@gmail.com"
+
+inputs:
+  site: # id of input
+    description: "Site's url"
+    required: true
+    default: "oiluna.com"
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
+  args:
+    - ${{ inputs.site }}
