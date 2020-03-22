@@ -1,0 +1,12 @@
+name: Workflow for testing ping action
+on: push
+
+jobs:
+  build:
+    name: test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - uses: ./
+        with:
+          site: "oiluna.com"
