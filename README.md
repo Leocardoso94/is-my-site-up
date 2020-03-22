@@ -1,4 +1,4 @@
-# my site action
+# Is my site up?
 
 This action check if a site in online or offline.
 
